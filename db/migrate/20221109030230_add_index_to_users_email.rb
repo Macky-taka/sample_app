@@ -1,4 +1,4 @@
-class AddIndexToUsersEmail2 < ActiveRecord::Migration[6.0]
+class AddIndexToUsersEmail < ActiveRecord::Migration[6.0]
   def change
     
   end
