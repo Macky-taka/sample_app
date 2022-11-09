@@ -1,4 +1,5 @@
-class CreateUsers < ActiveRecord::Migration[6.0]
+class AddIndexToUsersEmail2 < ActiveRecord::Migration[6.0]
   def change
+    
   end
 end
