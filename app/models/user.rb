@@ -18,7 +18,7 @@ class User < ApplicationRecord
     
     # def User.new_token
     
-   
+   でで
     
     class << self
         def digest(string)
