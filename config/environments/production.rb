@@ -69,12 +69,12 @@ Rails.application.configure do
   host = 'gruesome-demon-81651.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
-    :port                    => ENV['MAILGUN_SMTP_PORT'],
-    :address                 => ENV['MAILGUN_SMTP_SERVER'],
-    :user_name               => ENV['MAILGUN_SMTP_LOGIN'],
-    :password                => ENV['MAILGUN_SMTP_PASSWORD'],
-    :domain                  => host,
-    :authentication           => :plain,
+    :port           => ENV['MAILGUN_SMTP_PORT'],
+    :address        => ENV['MAILGUN_SMTP_SERVER'],
+    :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+    :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+    :domain         => host,
+    :authentication => :plain,
   }
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
